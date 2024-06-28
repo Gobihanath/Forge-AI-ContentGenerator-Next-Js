@@ -3,8 +3,10 @@
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import logo from '../../../public/Logo1.png'
+import logo1 from '../../../public/Logo4.png'
 import { FileClock, Home, Settings } from 'lucide-react'
 import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 
 function SideNav() {
 
@@ -22,7 +24,7 @@ function SideNav() {
     {
       name:'Setting',
       icon:Settings,
-      path:'/dashboard/setting'
+      path:'/dashboard/settings'
     },
 
   ]
@@ -43,15 +45,21 @@ function SideNav() {
 
       <div className='mt-10'>
         {MenuList.map((menu,index)=>(
-          <div key={index} className={`flex gap-2 mb-2 p-3 hover:bg-primary hover:text-white rounded-lg cursor-pointer items-center
+          <Link href={menu.path}>
+          <div key={index} 
+          className={`flex gap-2 mb-2 p-3 hover:bg-primary hover:text-white rounded-lg cursor-pointer items-center
           ${path==menu.path && 'bg-primary text-white'}
           `}>
             <menu.icon className='h-7 w-7'/>
             <h2 className='text-lg'>{menu.name}</h2>
           </div>
+          </Link>
         ))}
       </div>
-
+      
+      <div className='mt-10'>
+        <Image src={logo1} alt='logo' width={250} height={250}/>
+      </div>
 
     </div>
   )

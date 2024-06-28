@@ -63,7 +63,7 @@ export default [
         name: 'English Grammar Checker',
         desc: 'An AI tool that checks and corrects English grammar in text',
         category: 'Writing',
-        icon: 'https://cdn-icons-png.flaticon.com/128/633/633585.png',
+        icon: 'https://cdn-icons-png.flaticon.com/128/12596/12596700.png',
         aiPrompt: 'Check and correct the English grammar in the given text',
         slug: 'english-grammar-checker',
         form: [
@@ -241,7 +241,7 @@ export default [
         name: 'Job Description Generator',
         desc: 'An AI tool that creates detailed job descriptions based on job roles and responsibilities',
         category: 'HR',
-        icon: 'https://cdn-icons-png.flaticon.com/128/1034/1034482.png',
+        icon: 'https://cdn-icons-png.flaticon.com/128/2272/2272580.png',
         aiPrompt: 'Create a detailed job description based on the given job role and responsibilities',
         slug: 'job-description-generator',
         form: [
