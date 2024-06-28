@@ -1,1 +1,1 @@
-###Customized AI content creator using Gemini AI
+Customized AI content creator using Gemini AI
