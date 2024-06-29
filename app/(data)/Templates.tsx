@@ -290,5 +290,6 @@ export default [
                 required: true
             }
         ]
-    }
+    },
+    
 ];

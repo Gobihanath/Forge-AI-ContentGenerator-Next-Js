@@ -25,7 +25,7 @@ export default function Home() {
                   />
                   <h2 className="mt-8 text-2xl font-semibold text-gray-900">Create Amazing Content with AI</h2>
                   <p className="mt-4 text-gray-600">
-                    Harness the power of artificial intelligence to generate high-quality content in seconds.
+                    "Harness the power of artificial intelligence to generate high-quality content in seconds."
                   </p>
                   <Link href={'/dashboard'}>
                   <Button className="mt-6 w-52">Let's Get Started</Button>
@@ -36,10 +36,10 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="bg-orange-400 shadow">
+      <footer className="bg-sky-800 shadow">
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-          <p className="text-center text-sm text-gray-900">
-            © 2024 Forge-AI Content Creator. All rights reserved.
+          <p className="text-center text-sm text-gray-300">
+            © 2024 Forge-AI Content Creator. All rights reserved. Gobi7Kish@yahoo.com
           </p>
         </div>
       </footer>

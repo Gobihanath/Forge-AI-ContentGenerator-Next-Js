@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import logo from '../../../public/Logo1.png'
-import logo1 from '../../../public/Logo4.png'
+import logo1 from '../../../public/Logo3.png'
 import { FileClock, Home, Settings } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
@@ -37,7 +37,7 @@ function SideNav() {
 
 
   return (
-    <div className='h-screen p-5 shadow-sm border bg-orange-400'>
+    <div className='h-screen p-5 shadow-sm border bg-gray-400'>
       <div className='flex justify-center'>
       <Image src={logo} alt='logo' width={150} height={100}/>
       </div>
@@ -58,7 +58,7 @@ function SideNav() {
       </div>
       
       <div className='mt-10'>
-        <Image src={logo1} alt='logo' width={250} height={250}/>
+        <Image src={logo1} alt='logo' width={200} height={250}/>
       </div>
 
     </div>
